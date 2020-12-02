@@ -44,7 +44,7 @@ def sfhFromParticles(ds, data, selection = None, times = None):
 
 if __name__=='__main__':
 
-    ds_list = np.sort( glob.glob('./DD????/DD????'))
+    ds_list = np.sort( glob.glob('/scratch/02695/emerick/enzo_runs/IndividualStarCosmology/FullRuns/1pc_PISN/DD????/DD????'))
 
 
     ds   = yt.load(ds_list[-1])

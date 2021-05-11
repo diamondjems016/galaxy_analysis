@@ -69,7 +69,7 @@ def _define_particle_filter_functions():
 
     def popIII_remnant(dobj, filtered_type = 'all'):
 
-        if ('IndividualStarPopIIIFormation' in data.ds.parameters) and\
+        if ('IndividualStarPopIIIFormation' in dobj.ds.parameters) and\
            ('PopIIIMetalCriticalFraction' in dobj.ds.parameters):
             if dobj.ds.parameters['IndividualStarPopIIIFormation'] > 0:
 
